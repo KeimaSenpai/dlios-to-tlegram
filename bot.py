@@ -17,7 +17,7 @@ app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # Ruta del archivo JSON para ipatool_path
 config_file = os.path.join(os.path.dirname(__file__), 'config.json')
-ipatool_path = os.path.join(os.path.dirname(__file__), 'ipatool.exe')
+ipatool_path = os.path.join(os.path.dirname(__file__), 'ipatool-2.1.4-linux-amd64')
 download_folder = os.path.join(os.path.dirname(__file__), 'download')
 # Base de datos SQLite
 db_file = os.path.join(os.path.dirname(__file__), 'users.db')
